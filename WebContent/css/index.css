@@ -1,0 +1,53 @@
+#Header {
+	background-color: red;
+	text-align: center;
+	font-size: 200%;
+}
+
+#Header::after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+#LeftPanel {
+	background-color: yellow;
+	width: 25%;
+	float: left;
+}
+
+#Content {
+	background-color: blue;
+	width: 50%;
+	float: left;
+}
+
+#RightPanel {
+	background-color: green;
+	width: 25%;
+	float: left;
+}
+
+#Footer {
+	background-color: pink;
+}
+
+#Footer::before {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+#Header ul {
+	list-style-type: none;
+}
+
+#Header ul li {
+	float: left;
+}	
+
+.menu li{
+	border-right: 2px solid blue;
+	padding-right: 50px;
+	padding-left: 50px;
+}
